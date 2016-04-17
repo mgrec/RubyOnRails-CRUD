@@ -11,3 +11,7 @@ Génération de l'architecture du projet avec :
 Pour lancer notre serveur nous utiliserons :
 
 ```bin/rails server```
+
+La page par défaut sera alors :
+
+```http://localhost:3000/```
