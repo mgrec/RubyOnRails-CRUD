@@ -42,3 +42,41 @@ class UsersController < ApplicationController
   end
 end
 ```
+
+###### ETAPE 1 - B) CRUD : READ
+
+
+Mon controller pour les utilisateurs (avec le READ) :
+
+__users_controller.rb__
+
+
+``` ruby
+class UsersController < ApplicationController
+  def index
+    @users = User.all
+  end
+
+  def show
+    @user = User.find(params[:id])
+  end
+
+  def new
+  end
+
+  def create
+    @user = User.new(user_params)
+    if @user.save
+    redirect_to @user
+  else
+    render 'new'
+  end
+  end
+
+  private
+    def user_params
+    params.require(:user).permit(:name, :lastname, :description)
+  end
+end
+
+```
