@@ -43,6 +43,7 @@ class UsersController < ApplicationController
 end
 ```
 
+
 ###### ETAPE 1 - B) CRUD : READ
 
 
