@@ -15,3 +15,6 @@ Pour lancer notre serveur nous utiliserons :
 La page par défaut sera alors :
 
 ``` http://localhost:3000/ ```
+
+
+###### ETAPE 1 - A : CRUD : CREATE
