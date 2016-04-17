@@ -16,6 +16,7 @@ La page par défaut sera alors :
 
 ``` http://localhost:3000/ ```
 
+-----------------
 
 ###### ETAPE 1 - A) CRUD : CREATE
 
@@ -43,6 +44,7 @@ class UsersController < ApplicationController
 end
 ```
 
+-----------------
 
 ###### ETAPE 1 - B) CRUD : READ
 
@@ -67,6 +69,8 @@ class UsersController < ApplicationController
 end
 
 ```
+
+-----------------
 
 ###### ETAPE 1 - C) CRUD : UPDATE
 
