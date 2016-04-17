@@ -17,7 +17,7 @@ La page par défaut sera alors :
 ``` http://localhost:3000/ ```
 
 
-###### ETAPE 1 - A : CRUD : CREATE
+###### ETAPE 1 - A) CRUD : CREATE
 
 
 Mon controller pour les utilisateurs :
