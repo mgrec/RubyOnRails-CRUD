@@ -7,3 +7,7 @@
 Génération de l'architecture du projet avec :
 
 ```rails new "app name"```
+
+Pour lancer notre serveur nous utiliserons :
+
+```bin/rails server```
