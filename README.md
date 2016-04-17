@@ -107,5 +107,32 @@ class UsersController < ApplicationController
 
 end
 
+```
+
+&nbsp;
+
+###### ETAPE 1 - D) CRUD : DELETE
+
+
+Mon controller pour les utilisateurs (ajout du DELETE) :
+
+__users_controller.rb__
+
+
+``` ruby
+class UsersController < ApplicationController
+
+...
+
+def destroy
+  @user = User.find(params[:id])
+  @user.destroy
+
+  redirect_to users_path
+end
+
+...
+
+end
 
 ```
