@@ -64,6 +64,8 @@ class UsersController < ApplicationController
 
 ...
 
+end
+
 ```
 
 ###### ETAPE 1 - C) CRUD : UPDATE
