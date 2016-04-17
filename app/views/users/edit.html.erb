@@ -1,0 +1,26 @@
+<h1>Editing article</h1>
+
+<%= form_for :user, url: user_path(@user), method: :patch do |f| %>
+
+  <p>
+    <%= f.label :Name %><br>
+    <%= f.text_field :name %>
+  </p>
+
+  <p>
+    <%= f.label :Lastname %><br>
+    <%= f.text_area :lastname %>
+  </p>
+
+  <p>
+    <%= f.label :Description %><br>
+    <%= f.text_area :description %>
+  </p>
+
+  <p>
+    <%= f.submit %>
+  </p>
+
+<% end %>
+
+<%= link_to 'Back', users_path %>
