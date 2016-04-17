@@ -4,4 +4,5 @@
 
 ###### ETAPE 1 : Réalisation d'un CRUD basique
 
-Génération de l'architecture du projet avec : ```rails new "app name"```
+Génération de l'architecture du projet avec :
+```rails new "app name"```
