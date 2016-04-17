@@ -1,0 +1,24 @@
+<h1>New Users</h1>
+
+<%= form_for :user, url: users_path do |f| %>
+  <p>
+    <%= f.label :Name %><br>
+    <%= f.text_field :name %>
+  </p>
+
+  <p>
+    <%= f.label :Lastname %><br>
+    <%= f.text_field :lastname %>
+  </p>
+
+  <p>
+    <%= f.label :Description %><br>
+    <%= f.text_area :description %>
+  </p>
+
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', users_path %>
