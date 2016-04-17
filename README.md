@@ -6,12 +6,12 @@
 
 Génération de l'architecture du projet avec :
 
-```rails new "app name"```
+``` rails new "app name" ```
 
 Pour lancer notre serveur nous utiliserons :
 
-```bin/rails server```
+``` bin/rails server ```
 
 La page par défaut sera alors :
 
-```http://localhost:3000/```
+``` http://localhost:3000/ ```
